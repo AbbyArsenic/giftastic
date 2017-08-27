@@ -46,7 +46,7 @@ $(document).ready(function() {
 
     // Constructing a queryURL using the animal name
     var queryURL = "https://api.giphy.com/v1/gifs/search?q=" +
-      fail + "&api_key=dc6zaTOxFJmzC&limit=12";
+      fail + "+fail&api_key=dc6zaTOxFJmzC&limit=12";
 
     // Performing an AJAX request with the queryURL
     $.ajax({
